@@ -1,0 +1,17 @@
+<h1>{{ .Title }}</h1>
+<p>
+    <span class="product-price" style="text-decoration: line-through">{{ .Params.itemPrice }}</span>
+</p>
+<p>
+    {{ range $index, $element := .Params.options }}
+    <span>{{ $index | humanize }}</span>
+    <select class="select-{{ $index }}">
+        {{ range $element }}
+        <option>{{ . }}</option>
+        {{ end }}
+    </select>
+    {{ end }}
+</p>
+<script>
+    var productPrice = {{ .Params.itemPrice }}
+</script>
