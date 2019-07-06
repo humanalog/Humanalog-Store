@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-id: -1
+itemID: -1
 itemName: "{{ replace .Name "-" " " | title }}"
 itemPrice: $0.00
 itemURL: www.humanalogstudios.com

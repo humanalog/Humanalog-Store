@@ -1,13 +1,12 @@
 ---
 title: "Test Soundpack"
-id: 1
+itemID: 1
 itemName: "Test Soundpack"
 itemPrice: $0.00
 itemURL: www.humanalogstudios.com
-itemThumbnail: img/test/thumbnail.jpg
+itemThumbnail: img/test/thumbnail.png
 itemPictures:
-- img/test/1.jpg
-- img/test/2.jpg
+- img/test/1.png
 tags:
 - Test
 - Draft

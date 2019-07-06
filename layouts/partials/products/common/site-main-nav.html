@@ -8,5 +8,13 @@
             <a class="nav-link" href="{{ .Permalink }}">{{ .Title | title }}</a>
         </li>
         {{ end }}
+        <div class="header__cart">
+            <a href="#" class="snipcart-checkout" style="text-decoration: none;">
+              <div class="snipcart-summary">
+                <img src="/img/cart.svg" alt="">
+                <span class="snipcart-total-price"></span>
+              </div>
+            </a>
+          </div>
     </ul>
 </nav>
